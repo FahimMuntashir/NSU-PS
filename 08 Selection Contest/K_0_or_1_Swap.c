@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    int arr[1000];
+    scanf("%d", &n);
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
+    int count = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (arr[i] != i + 1)
+        {
+            count++;
+        }
+    }
+    if (count <= 2)
+        printf("YES\n");
+    else
+        printf("NO\n");
+}
