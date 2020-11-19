@@ -6,7 +6,7 @@
 int main()
 {
     ll n;
-    char ch[1000];
+    char ch[10000];
     int sum = 0;
     scanf("%ld", &n);
     getchar();
