@@ -14,3 +14,7 @@ North South University Problem Solvers ( NSUPS ) '  is a community to learn Algo
 
 ## NSUPS Bootcamp Season 08 Individual Contest[27-11-2020]    <a href = "https://vjudge.net/contest/410209"> Link </a>
 
+## NSUPS Bootcamp Season 08 Individual Contest[04-12-2020]    <a href = "https://vjudge.net/contest/411433"> Link </a> 
+
+
+
