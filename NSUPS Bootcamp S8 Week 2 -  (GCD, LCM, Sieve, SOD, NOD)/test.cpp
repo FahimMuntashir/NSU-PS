@@ -79,8 +79,15 @@ int main()
 
     // cout << ans << endl;
 
-    int n;
-    cin >> n;
-    SOD(n);
-    cout<<n<<endl;
+    // int n;
+    // cin >> n;
+    // SOD(n);
+    // cout<<n<<endl;
+
+    int age = 20;
+    string name = "fahim";
+
+    stringstream ss;
+    ss<<"name is: "+name<<"\n" <<"age is: "<<age<<endl;
+    cout<<ss.str()<<endl; 
 }

@@ -20,17 +20,17 @@ int main()
     {
         int n1, n2;
         cin >> n1 >> n2;
-        int g = gcd(n1, n2);
+        // int g = gcd(n1, n2);
 
-        int l = (n1 * n2) / g;
+        // int l = (n1 * n2) / g;
 
-        if (l % g)
+        if (n2 % n1 == 0)
         {
-            cout << -1 << endl;
+            cout << n1 << " " << n2 << endl;
         }
         else
         {
-            cout << g << " " << l << endl;
+            cout << -1 << endl;
         }
     }
 }

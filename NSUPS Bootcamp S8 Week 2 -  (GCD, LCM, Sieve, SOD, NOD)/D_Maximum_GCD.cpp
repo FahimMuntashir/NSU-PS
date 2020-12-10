@@ -25,14 +25,33 @@ int gcdMany(int arr[], int n)
 
 int main()
 {
+
     int t;
-    cin >> t;
+    int N, a[100];
+    string s;
 
-    while (t--)
+    while (cin >> t)
     {
-           int n;
-           cin>>n;
-           int ans = max(ans,gcdMany);
+        int count;
+        getchar();
+        while (t--)
+        {
 
+            N = 0;
+            count = 0;
+
+            getline(cin, s);
+            istringstream is(s);
+
+            while (is >> a[N])
+            {
+                ++N;
+            }
+
+            for (int i = 0; i < N; ++i)
+                for (int j = i + 1; j < N; ++j)
+                    count = max(count, gcd(a[i], a[j]));
+
+            cout << count << endl;
+        }
     }
-}
